@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CEASER",
+    "slug": "ceaser-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#07090E"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ceaser.ecosystem.mobile",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "CEASER requires Bluetooth to connect to CEASER NIX Smart Glasses.",
+        "NSMicrophoneUsageDescription": "CEASER uses microphone for voice commands to NIX AI assistant."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0E17"
+      },
+      "package": "com.ceaser.ecosystem.mobile",
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT",
+        "RECORD_AUDIO",
+        "INTERNET"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CEASER",
+  "description": "Premium companion app for the CEASER ecosystem, CEASER NIX Desktop, and CEASER NIX Smart Glasses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

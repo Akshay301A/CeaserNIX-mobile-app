@@ -1,0 +1,12 @@
+{"_e":"root:init","_t":1792036688080,"format":"v0-jsonl","version":"57.0.30"}
+{"_e":"env:mode","_t":1792036688081,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1792036688084,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1792036688696,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1792036689111,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1792036689408,"plugins":[]}
+{"_e":"metro:instantiate","_t":1792036690617,"atlas":false,"workers":3,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1792036714601,"id":"2","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:server_log","_t":1792036717119,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/root/.npm/_npx/249ca9fcd30c476a/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libgtk-3.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:bundling:done","_t":1792036729433,"id":"2","total":784,"ms":14831.747967}
+{"_e":"metro:bundling:started","_t":1792036735435,"id":"3","platform":"ios","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:done","_t":1792036744516,"id":"3","total":783,"ms":9080.915339}
